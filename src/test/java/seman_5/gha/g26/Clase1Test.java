@@ -41,14 +41,19 @@ public class Clase1Test {
     /**
      * Test of suma method, of class Clase1.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testSuma() {
         System.out.println("suma");
         Clase1 instance = new Clase1();
         int result = instance.suma(4, 5);
-        assertEquals(12, result);
+        assertEquals(9, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
-    
-}
+     @Test
+    public void testSuma2(){
+        Clase1 c1 = new Clase1();
+        int result = c1.suma(-4,-8);
+        assertEquals (-12, result);
+    }
+   
