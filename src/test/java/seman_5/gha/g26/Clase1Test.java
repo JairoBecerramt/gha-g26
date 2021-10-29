@@ -45,7 +45,7 @@ public class Clase1Test {
     public void testSuma() {
         System.out.println("suma");
         Clase1 instance = new Clase1();
-        int result = instance.suma(a, b);
+        int result = instance.suma(4, 5);
         assertEquals(12, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
