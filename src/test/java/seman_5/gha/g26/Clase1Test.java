@@ -45,7 +45,6 @@ public class Clase1Test {
     public void testSuma() {
         System.out.println("suma");
         Clase1 instance = new Clase1();
-        int expResult = 0;
         int result = instance.suma(a, b);
         assertEquals(12, result);
         // TODO review the generated test code and remove the default call to fail.
